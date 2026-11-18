@@ -61,7 +61,7 @@ const projects = [
     stack: ["React", "JavaScript", "CSS"],
     accent: "lavender",
     image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=1000",
-    href: "https://github.com/mennayasser5656"
+    href: "https://github.com/mennayasser5656/Weatherly-Weather-Dashboard-Elevvo-task"
   },
   {
     number: "03",
@@ -83,7 +83,7 @@ const projects = [
     stack: ["HTML", "CSS", "Bootstrap"],
     accent: "mint",
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1000",
-    href: "https://github.com/mennayasser5656"
+    href: "https://github.com/mennayasser5656/bizland-landing-page-ITI-task"
   }
 ];
 
@@ -356,66 +356,23 @@ export default function Portfolio() {
 
           {project.number === "01" ? (
            
-<div className="car-service-mock">
-  <aside className="car-sidebar">
-    <strong>Sal7ha.</strong>
-    <span className="active">▦ Overview</span>
-    <span>▤ Appointments</span>
-    <span>♧ Customers</span>
-    <span>🚘 Vehicles</span>
-    <span>▧ Inventory</span>
-    <span>▤ Payments</span>
-    <span>⚙ Settings</span>
-  </aside>
+<div className="web-mock">
+  <div className="mock-nav">
+    <b>SAL7HA.</b>
+    <span>HOME　 SERVICES　 BOOKINGS　 CONTACT</span>
+  </div>
 
-  <div className="car-dashboard">
-    <div className="car-header">
-      <div>
-        <h3>Dashboard Overview</h3>
-        <p>Welcome back! Here's your workshop activity.</p>
-      </div>
-      <span className="car-avatar">M</span>
-    </div>
+  <div className="mock-hero">
+    <i />
+    <b>Car care, made simple.</b>
+    <span />
+    <span />
+  </div>
 
-    <div className="car-stats">
-      <div>
-        <span>Total Bookings</span>
-        <strong>248</strong>
-        <small>↑ 12.5% this month</small>
-      </div>
-      <div>
-        <span>Active Services</span>
-        <strong>36</strong>
-        <small>Currently in progress</small>
-      </div>
-      <div>
-        <span>Total Revenue</span>
-        <strong>$8,450</strong>
-        <small>↑ 8.2% this month</small>
-      </div>
-    </div>
-
-    <div className="car-bookings">
-      <div className="car-bookings-title">
-        <strong>Recent Appointments</strong>
-        <span>View all →</span>
-      </div>
-      <div className="car-booking-row">
-        <span>🚙</span>
-        <div><b>BMW 3 Series</b><small>Oil Change</small></div>
-        <em>Confirmed</em>
-      </div>
-      <div className="car-booking-row">
-        <span>🚗</span>
-        <div><b>Mercedes C-Class</b><small>Full Inspection</small></div>
-        <em>In progress</em>
-      </div>
-      <div className="car-booking-row">
-        <span>🚘</span>
-        <div><b>Audi A4</b><small>Brake Service</small></div>
-        <em>Pending</em>
-      </div>
-    </div>
+  <div className="mock-cards">
+    <i />
+    <i />
+    <i />
   </div>
 </div>
 
