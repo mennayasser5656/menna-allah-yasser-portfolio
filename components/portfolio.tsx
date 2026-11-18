@@ -146,7 +146,7 @@ export default function Portfolio() {
       <header className="site-header">
         <a className="brand" href="#home" aria-label="Menna Yasser home">
           <span className="brand-mark">MY</span>
-          <span>Menna Yasser<span className="brand-period">.</span></span>
+          <span>Menna Allah Yasser<span className="brand-period">.</span></span>
         </a>
 
         <button
@@ -489,7 +489,7 @@ export default function Portfolio() {
     </a>
 
     <div className="contact-footer">
-      <span>© {new Date().getFullYear()} Menna Yasser</span>
+      <span>© {new Date().getFullYear()} Menna Allah Yasser</span>
 
       <div className="social-links">
         <a
