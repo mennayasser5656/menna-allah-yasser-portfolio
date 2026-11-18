@@ -199,10 +199,9 @@ export default function Portfolio() {
               Get in touch <ArrowDownRight size={17} />
             </a>
           </div>
-          <div className="hero-meta">
-            <span><span className="meta-line" /> Based in Alexandria, Egypt</span>
-            <span>Available for opportunities</span>
-          </div>
+        <div className="hero-meta">
+  <span>Available for opportunities</span>
+</div>
         </motion.div>
 
         <motion.div
